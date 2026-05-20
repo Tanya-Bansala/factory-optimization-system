@@ -5,6 +5,7 @@ This project is a Machine Learning-based system that helps improve factory assig
 
 It predicts shipping time (lead time) and suggests the best factory/region to improve delivery speed and profit.
 
+
 # Problem Statement
 Currently, the company uses fixed rules to assign products to factories. This causes:
 
@@ -14,11 +15,13 @@ Currently, the company uses fixed rules to assign products to factories. This ca
 
 This project solves these problems using data and Machine Learning.
 
+
 # Project Objectives
 - Predict shipping time using Machine Learning  
 - Analyze important business KPIs  
 - Suggest the best factory/region  
-- Improve delivery speed and profit  
+- Improve delivery speed and profit
+
 
 #Dataset Information
 The dataset includes:
@@ -34,6 +37,7 @@ The dataset includes:
 - Cost  
 - Gross Profit  
 
+
 # Technologies Used
 - Python  
 - Streamlit  
@@ -42,8 +46,10 @@ The dataset includes:
 - Scikit-learn  
 - Matplotlib  
 
+
 #Machine Learning Model
 We used a **Gradient Boosting Regressor** model.
+
 
 #Input Features:
 - Sales  
@@ -53,12 +59,15 @@ We used a **Gradient Boosting Regressor** model.
 
 This model helps to predict shipping lead time.
 
+
 #Key Features
 - KPI Dashboard (Sales, Profit, Orders, Lead Time)  
 - Lead Time Prediction System  
 - Factory/Region Recommendation System  
 - Simple Data Visualizations  
 - Filters (Product, Region, Ship Mode)  
+
+
 
 #How Optimization Works
 The system selects the best factory/region based on:
