@@ -77,9 +77,6 @@ The system selects the best factory/region based on:
 
 It tries to balance both profit and speed to give the best recommendation.
 
-# How to Run This Project Locally
-pip install -r requirements.txt
-streamlit run app.py
 
 #Live Demo
 
